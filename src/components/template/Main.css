@@ -1,0 +1,47 @@
+main > div {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px #0004;
+}
+
+.contato {
+   display: block;
+   text-decoration: none;
+   color: black;
+   font-size: 30px;
+   padding: 10px;
+}
+
+.contato:hover {
+   background: linear-gradient(135deg, #cf200deb 70%, #fff 30%);
+   color: #fff;
+}
+
+.foto {
+   margin: 15px;
+   border-style: outset;
+   border-radius: 15px;
+}
+
+p {
+   font-size: 30px;
+}
+
+.foto,
+.sobreMim {
+   display: inline-block;
+}
+
+@media (max-width: 576px) {
+   input {
+      width: 350px;
+   }
+
+   .foto {
+      display: none;
+   }
+
+   p {
+      font-size: 20px;
+   }
+
+ }
